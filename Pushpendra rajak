@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Contest Website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Contest </h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Contests</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Upcoming Contests</h2>
+      <ul>
+        <li><a href="#">Contest 1</a></li>
+        <li><a href="#">Contest 2</a></li>
+        <li><a href="#">Contest 3</a></li>
+      </ul>
+      
+      <form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="contest">Contest:</label>
+  <select id="contest" name="contest" required>
+    <option value="">Select a contest</option>
+    <option value="contest1">Contest 1</option>
+    <option value="contest2">Contest 2</option>
+    <option value="contest3">Contest 3</option>
+  </select>
+
+  <button type="submit">Submit</button>
+</form>
+<article>
+  <h3>Contest 1</h3>
+  <p>Submit a photo of your pet to enter. The winner will receive a $50 gift card to a pet store.</p>
+  <ul>
+    <li>Photos must be original and taken by the contestant.</li>
+    <li>Only one entry per person is allowed.</li>
+    <li>The deadline for entries is June 1, 2023.</li>
+  </ul>
+  <a href="#">Enter now</a>
+</article>
+<section>
+  <h2>Contest 1 Winners</h2>
+  <ol>
+    <li>First place: John Smith</li>
+    <li>Second place: Jane Doe</li>
+    <li>Third place: Mike Johnson</li>
+  </ol>
+  <p>Congratulations to the winners!</p>
+</section>
+<footer>
+  <ul>
+    <li><a href="https://www.facebook.com/contestwebsite">Facebook</a></li>
+    <li><a href="https://twitter.com/contestwebsite">Twitter</a></li>
+    <li><a href="https://www.instagram.com/contestwebsite">Instagram</a></li>
+  </ul>
+</footer>
+<main>
+  <h2>Upcoming Contests</h2>
+  <article>
+    <h3>Contest 1</h3>
+    <img src="contest1.jpg" alt="Contest 1">
+    <p>Submit a photo of your pet to enter. The winner will receive a $50 gift card to a pet store.</p>
+    <a href="#">Enter now</a>
+  </article>
+  <article>
+    <h3>Contest 2</h3>
+    <video src="contest2.mp4" controls></video>
+    <p>Create a 30-second video promoting our product. The winner will receive a $100 cash prize.</p>
+    <a href="#">Enter now</a>
+  </article>
+</main>
+<form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" required></textarea>
+
+  <button type="submit">Send</button>
+</form>
+<section>
+  <h2>FAQ</h2>
+  <dl>
+    <dt>How many times can I enter a contest?</dt>
+    <dd>Only one entry per person is allowed.</dd>
+    <dt>When will the winners be announced?</dt>
+    <dd>The winners will be announced one week after the contest deadline.</dd>
+    <dt>Can I submit an entry after the deadline?</dt>
+    <dd>No, late entries will not be accepted.</dd>
+  </dl>
+</section>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#contests">Contests</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+<footer>
+  <ul>
+    <li><a href="https://www.facebook.com/YourContest">Facebook</a></li>
+    <li><a href="https://twitter.com/YourContest">Twitter</a></li>
+    <li><a href="https://www.instagram.com/YourContest">Instagram</a></li>
+  </ul>
+</footer>
+<section>
+  <h2>Terms and Conditions</h2>
+  <p>By entering this contest, you agree to the following terms and conditions:</p>
+  <ul>
+    <li>Only one entry per person is allowed.</li>
+    <li>The entry must be original and created by the person submitting it.</li>
+    <li>The winner will be selected by a panel of judges based on creativity and adherence to the contest theme.</li>
+    <li>The winner will be notified via email and/or phone within one week of the contest deadline.</li>
+    <li>The prize is non-transferable and cannot be exchanged for cash.</li>
+  </ul>
+</section>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <h1>404 Not Found</h1>
+    <p>The page you are looking for does not exist. Please check the URL and try again.</p>
+  </body>
+</html>
+<section>
+  <h2>Contest Entries</h2>
+  <div class="gallery">
+    <a href="entry1.jpg">
+      <img src="entry1-thumbnail.jpg" alt="Contest Entry 1">
+    </a>
+    <a href="entry2.jpg">
+      <img src="entry2-thumbnail.jpg" alt="Contest Entry 2">
+    </a>
+    <a href="entry3.jpg">
+      <img src="entry3-thumbnail.jpg" alt="Contest Entry 3">
+    </a>
+    <!-- Add more entries here -->
+  </div>
+</section>
+<section>
+  <h2>Contest Videos</h2>
+  <div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+</section>
+<section>
+  <h2>Submit Your Entry</h2>
+  <form action="submit.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <br>
+    <label for="entry">Entry:</label>
+    <input type="file" id="entry" name="entry">
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</section>
+<section>
+  <h2>Contest Deadline</h2>
+  <p>Hurry! The contest ends in:</p>
+  <div id="countdown"></div>
+</section>
+
+<script>
+  // Set the deadline date and time
+  var deadline = new Date("May 31, 2023 23:59:59").getTime();
+
+  // Update the countdown every second
+  var countdown = setInterval(function() {
+    // Get the current date and time
+    var now = new Date().getTime();
+
+    // Calculate the time remaining
+    var timeRemaining = deadline - now;
+
+    // Calculate the days, hours, minutes, and seconds remaining
+    var days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((timeRemaining %
+<section>
+  <h2>Enter the Contest</h2>
+  <p>Don't miss your chance to win! Submit your entry today.</p>
+  <a href="submit.php" class="cta-button">Enter Now</a>
+</section>
+<section>
+  <h2>What People are Saying</h2>
+  <ul>
+    <li>
+      <blockquote>
+        "Winning the contest was an amazing experience! I couldn't believe it when I got the call. I would encourage anyone to enter this contest - you never know what might happen."
+      </blockquote>
+      <cite>Jane Doe, 2022 Contest Winner</cite>
+    </li>
+    <li>
+      <blockquote>
+        "I entered this contest on a whim and was thrilled when I found out I was a finalist. Even though I didn't win, the experience was invaluable. I learned so much about myself and my craft."
+      </blockquote>
+      <cite>John Smith, 2021 Contest Finalist</cite>
+    </li>
+  </ul>
+</section>
+<section>
+  <h2>Countdown to Deadline</h2>
+  <div id="countdown"></div>
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+<script>
+  // Set the contest deadline (in UTC)
+  var deadline = moment.utc("2023-05-31T23:59:00");
+  
+  // Update the countdown every second
+  setInterval(function() {
+    var now = moment.utc();
+    var duration = moment.duration(deadline.diff(now));
+    
+    // Update the countdown element with the remaining time
+    document.getElementById("countdown").textContent = duration.days() + " days, " + duration.hours() + " hours, " + duration.minutes() + " minutes, " + duration.seconds() + " seconds";
+  }, 1000);
+</script>
+<section>
+  <h2>Entry Gallery</h2>
+  <ul class="entry-gallery">
+    <li><img src="entry1.jpg" alt="Entry 1"></li>
+    <li><img src="entry2.jpg" alt="Entry 2"></li>
+    <li><img src="entry3.jpg" alt="Entry 3"></li>
+    <!-- Add more entries here -->
+  </ul>
+</section>
+<section>
+  <h2>Enter the Contest</h2>
+  <form action="submit.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="entry">Entry:</label>
+    <textarea id="entry" name="entry" required
+
+    </main>
+    <footer>
+      <p>&copy; 2023 Contest Website</p>
+    </footer>
+  </body>
+</html>
